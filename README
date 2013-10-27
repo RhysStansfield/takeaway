@@ -1,0 +1,16 @@
+Basic takeaway food system:
+
+  * The astonishingly varied and exciting menu consists of the following:
+
+    - burger
+    - chips
+    - pizza
+
+  * To order food use the Takeaway#add method, items must be added one at a time, as either strings or symbols.  i.e. add 'burger'
+
+  * To view your cart use the Takeaway#cart method.
+
+  * When you've added all your food make a note of how much it adds up to using the Takeaway#cart method, then use the Takeaway#checkout method to 'pay'
+    - You will be prompted to enter a number to pay
+    - If the number is wrong it will raise a BadPaymentError then prompt you to enter your payment again etc etc until you get it right.
+    - Once the correct amount has been entered it'll do the Twilio jazz and send me a text, cool!
