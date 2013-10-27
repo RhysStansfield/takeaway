@@ -1,0 +1,2 @@
+class BadPaymentError < Exception
+end
