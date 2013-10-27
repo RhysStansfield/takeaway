@@ -71,12 +71,6 @@ describe Takeaway do
       expect(order.valid_payment?).to be_true
     end
 
-    # it 'can send an SMS' do
-    #   order.stub(:send_sms) { nil }
-    #   expect(order.send_sms).to receive(:sms)
-    #   order.checkout
-    # end
-
   end
 
 end
